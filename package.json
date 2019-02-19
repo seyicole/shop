@@ -1,0 +1,22 @@
+{
+  "name": "stutern-challenge",
+  "version": "1.0.0",
+  "description": "Developer technical assesment",
+  "main": "./frontend/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oluseyi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-sanitizer": "^1.0.5",
+    "mongoose": "^5.4.13",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
+}

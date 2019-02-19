@@ -1,0 +1,29 @@
+<header>
+	<% include ./partials/head %>
+</header>
+
+<div class="container">
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Welcome to Items.ng</h1>
+			<p>We make shopping fun</p>
+
+			<a class="btn btn-primary btn-large" href="/items/new">Add new item</a>
+		</div>
+	</div>
+
+	<div class="row text-center" style="display: flex; flex-wrap: wrap;">
+		<% items.forEach((item) => { %>
+		<div class="col-md-3 col-sm-6">	
+			<div class="thumbnail">
+				<h4><%= item.name %></h4>
+				<img src="<%= item.image %>">
+			</div>
+			<p>
+			<a href="/<%= item._id %>" class=" btn btn-primary">More info</a>
+			</p>
+		</div>
+		<% }); %>
+	</div>
+</div>
+
