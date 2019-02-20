@@ -7,9 +7,9 @@
 
 4. View UI - https://secure-castle-12417.herokuapp.com/
 
-Instructions 
+HOW TO RUN LOCALLY
 
 1. To clone repo - `git clone ` repo url
 
-cd into cloned folder in terminal and type - `npm install` to run locally
+2. cd into cloned folder in terminal and type - `npm install` to run locally
 
