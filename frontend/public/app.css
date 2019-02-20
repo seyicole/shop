@@ -1,10 +1,15 @@
 /* Home page*/
+
 .thumbnail {
 	margin-bottom: 0px;
 	height: 50%;
 }
 
+
+
+
 /* Details Page */
+
 .rating img {
 	width: 30px;
 }
@@ -46,7 +51,8 @@ div.sizes {
 }
 
 .info h1 {
-	font-size: 64px;
+	font-size: 52px;
+    line-height: 1;
 }
 
 h1.lead {
