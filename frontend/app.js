@@ -25,7 +25,7 @@ app.use('/api/items', itemRoutes)
 
 
 app.get('/', function(req, res){
-		var jobApi = 'http://localhost:3000/api/items'
+		var jobApi = 'https://secure-castle-12417.herokuapp.com/api/items'
 		console.log(jobApi)
 		request(jobApi, function(err, response, body){
 			
@@ -39,7 +39,7 @@ app.get('/', function(req, res){
 
 app.get('/:itemId', function(req, res){
 		let url = req.params.itemId;
-		var jobApiId = 'http://localhost:3000/api/items/' + url;
+		var jobApiId = 'https://secure-castle-12417.herokuapp.com/api/items/' + url;
 		console.log(jobApiId)
 
 		request(jobApiId, function(err, response, bodyDetails){
@@ -85,7 +85,7 @@ app.get('/items/new', (req, res) => {
 
 		request.post(console.log('ur data',formBody),
 			{
-            url:'http://localhost:3000/api/items/', 
+            url:'https://secure-castle-12417.herokuapp.com/api/items/', 
             // body: formBody,
            	body: formBody,
     		json: true
