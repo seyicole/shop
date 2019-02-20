@@ -5,7 +5,7 @@
   "main": "./frontend/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node ./frontend/app.js"
   },
   "author": "Oluseyi",
   "license": "ISC",
