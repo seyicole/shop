@@ -65,6 +65,7 @@ app.get('/items/new', (req, res) => {
 		  req.body.description = req.sanitize(req.body.description);
 		  req.body.price = req.sanitize(req.body.price);
 		  req.body.image = req.sanitize(req.body.image);
+		  req.body.color = req.sanitize(req.body.color);
 
 		console.log('Your value was sanitized to: ' + req.body.description)
 
@@ -74,6 +75,7 @@ app.get('/items/new', (req, res) => {
 					description: req.body.description.trim(),
 					price: req.body.price.trim(),
 					image: req.body.image.trim(),
+					color: req.body.color.trim(),
 	              	created: Date.now()
 	            };
 	    // var formData = {

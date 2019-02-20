@@ -1,0 +1,58 @@
+/* Home page*/
+.thumbnail {
+	margin-bottom: 0px;
+	height: 50%;
+}
+
+/* Details Page */
+.rating img {
+	width: 30px;
+}
+
+.info p {
+	color: grey;
+} 
+
+div.colors {
+	border: 0px solid;
+    width: 20px;
+    height: 20px;
+    margin: 20px 0px;
+   /* background-color: red;*/
+}
+
+
+.size p {
+	color: #111;
+}
+
+div.sizes {
+	border: 1px solid grey;
+	border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #111;
+}  
+
+.boxes div {
+	display: inline-flex;
+}
+
+div.sizes {
+	margin: 0px 3px 0px 0px;
+	justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+	font-size: 64px;
+}
+
+h1.lead {
+	margin-top: -15px;
+}
+
+h1.price {
+	margin: 50px 0px;
+}

@@ -15,10 +15,15 @@
 	<div class="row text-center" style="display: flex; flex-wrap: wrap;">
 		<% items.forEach((item) => { %>
 		<div class="col-md-3 col-sm-6">	
-			<div class="thumbnail">
-				<h4><%= item.name %></h4>
-				<img src="<%= item.image %>">
-			</div>
+			<div class="panel panel-default">
+			    <div class="thumbnail">
+					<img src="<%= item.image %>">
+				</div>
+			    <div class="panel-footer">
+			    	<h4><%= item.name %></h4>
+			    	<h5>$<%= item.price %></h5>
+			    </div>
+		  	</div>
 			<p>
 			<a href="/<%= item._id %>" class=" btn btn-primary">More info</a>
 			</p>
