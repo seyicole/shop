@@ -9,10 +9,10 @@ Before installing, download and install Node.js.
 Installation is done using the npm install command:
 
 <h3>Install</h3>
-`npm install`
+<code>npm install</code>
 
 <h3>Run app</h3>
-`npm start`
+<code>npm start</code>
 
 <h3>Features</h3>
 <ul>
@@ -32,9 +32,9 @@ Use POSTMAN to test
 
 <table>
   <tr>
-    <th>request</th>
-    <th>endpoint</th>
-    <th>secription</th>
+    <th>Type of request</th>
+    <th>Endpoint</th>
+    <th>Dsecription</th>
   </tr>
   <tr>
     <td>POST</td>
